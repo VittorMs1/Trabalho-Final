@@ -1,0 +1,384 @@
+/* Reset global para evitar conflitos e garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Container principal */
+.TUDO {
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* Cabeçalho */
+.cabeçalho {
+    background-image: url(../img/carro-fundo-home.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1100px;
+    padding: 20px;
+}
+
+.logo1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.rs {
+    float: right;
+    margin-top: 65px;
+    margin-right: 100px;
+}
+
+.top {
+    margin-top: 75px;
+    margin-right: 85px;
+    float: right;
+}
+
+a {
+    font-family: 'Ruda', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f7f200;
+}
+
+.sobre-nos {
+    color: white;
+    width: 650px;
+    float: right;
+    margin-top: 250px;
+    margin-right: -750px;
+    text-align: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+/* Destaques */
+.d {
+    font-family: 'Ruda', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Carros (alinhamento com Flexbox) */
+.carros {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.carro-1, .carro-2, .carro-3 {
+    max-width: 400px;
+    display: block;
+    margin: 20px 0;
+}
+
+.carro-1 img, .carro-2 img, .carro-3 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.leg1, .leg2, .leg3 {
+    position: absolute;
+    width: 360px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.leg1 {
+    top: 190px;
+    left: 50px;
+}
+
+.leg2 {
+    top: 190px;
+    left: 566px;
+}
+
+.leg3 {
+    top: 190px;
+    right: 50px;
+}
+
+/* Localização */
+.LOCALIZAÇÃO {
+    margin-top: 450px;
+    position: relative;
+}
+
+.tit-local {
+    font-family: 'Ruda', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.l3, .l4 {
+    width: 635px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.l3 {
+    float: left;
+}
+
+.l4 {
+    float: right;
+}
+
+.mapa, .carrinho {
+    position: absolute;
+}
+
+.mapa {
+    margin-top: 50px;
+    left: 310px;
+
+    
+}
+
+.carrinho {
+    margin-top: 540px;
+    left: 1270px;
+}
+
+/* Rodapé */
+.rodape {
+    color: white;
+    background-image: url(imagem-fundo-rodape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo2 {
+    margin-top: 50px;
+}
+
+.tit-tel,
+.tit-end,
+.tit-red,
+.tit-email,
+.tit-hor {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+.tit-tel {
+    text-align: left;
+    margin-left: 300px;
+}
+
+.tit-end {
+    text-align: left;
+    margin-left: 695px;
+}
+
+.tit-red {
+    text-align: left;
+    margin-left: 1100px;
+}
+
+.tit-email {
+    text-align: left;
+    margin-left: 300px;
+}
+
+.tit-hor {
+    text-align: left;
+    margin-left: 695px;
+}
+
+.direitos {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+}
+
+/* Extras */
+.wpp,
+.tel,
+.email {
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.wpp {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.n-wpp {
+    margin-top: 30px;
+    margin-left: 340px;
+}
+
+.tel {
+    margin-top: 65px;
+    margin-left: 300px;
+}
+
+.n-tel {
+    margin-top: 73px;
+    margin-left: 340px;
+}
+
+.rua {
+    margin-top: 40px;
+    margin-left: 695px;
+}
+
+.img-rs {
+    margin-top: 20px;
+    margin-left: 1100px;
+}
+
+.hora {
+    margin-top: 20px;
+    margin-left: 695px;
+}
+
+/* Elementos de Destaque */
+.element {
+    border: 1px solid #f0730d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(73, 34, 34, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.element:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(73, 34, 34, 0.2);
+}
+
+.element img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.element:hover img {
+    opacity: 0.8;
+}
+
+/* Marcas */
+.car-logos {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+/* Adicionando responsividade para telas menores */
+@media (max-width: 768px) {
+    .TUDO {
+        width: 100%;
+    }
+
+    .logo1, .rs {
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    .sobre-nos {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .carros {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .carro-1, .carro-2, .carro-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .leg1, .leg2, .leg3 {
+        top: 220px;
+        left: 50px;
+        width: calc(100% - 100px);
+    }
+
+    .tit-local {
+        font-size: 28px;
+    }
+
+    .l3, .l4 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .mapa, .carrinho {
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        margin-left: 50px;
+        
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VNAutos</title>
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        main {
+            background-color: black;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .search {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .search input {
+            padding: 10px;
+            width: 200px;
+            border: 0;
+            border-radius: 25px; 
+        }
+
+        .search button {
+            padding: 10px 15px;
+            border: 0;
+            border-radius: 25px; 
+            background-color: #f7f200;
+            color: black;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        .search button:hover {
+            background-color: white;
+        }
+
+        .featured {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap; 
+            margin: 50px;
+        }
+
+        .featured h2 {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .element {
+            border: 1px solid white;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            width: 250px; 
+            box-shadow: 0 2px 5px rgba(73, 34, 34, 0.1);
+        }
+
+        .element img {
+            width: 95%; 
+            height: 150px; 
+            object-fit: cover; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f7f200;
+        }
+    </style>
+
+    <!-- LINKS FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="TUDO">
+    <!-- CABEÇALHO -->
+    <div class="cabeçalho">
+
+    <img class="logo1" src="WhatsApp_Image_2024-10-04_at_17.21.07-removebg-preview.png" alt="logo FizzaAutomóveis" width="200px">
+    <img class="rs" src="redes sociais.png" alt="redes sociais" width="100px">
+    
+    <header class="top"><a href="faq.html">FAQ</a></header>
+    <header class="top"><a href="catalogo.html">CATÁLOGO</a></header>
+    <header class="top"><a href="contato.html">CONTATO</a></header>
+    <header class="top"><a href="index.html">HOME</a></header>
+
+    <main>
+        <div class="search">
+            <br>
+            <h2>Encontre seu carro</h2>
+            <br>
+            <br>
+            <input type="text" class="search-text" placeholder="Digite o veículo desejado aqui..">
+            <button>Buscar</button>
+        </div>
+        <section class="featured">
+            <br><br><br><br>
+            <br><br><br><br>
+            
+            <h2>Destaques</h2>
+            <div class="element bmw">
+                <h3>BMW M4 2016</h3>
+                <img src="bmw trabalho.png" alt="BMW M4 2016">
+                <p>Preço: R$ 799.999</p>
+            </div>
+            <div class="element porsche">
+                <h3>Porsche 911 2024</h3>
+                <img src="911.png" alt="Porsche 911 2024">
+                <p>Preço: R$ 2.200.000</p>
+            </div>
+            <div class="element jaguar">
+                <h3>Jaguar F-Type V8 2022</h3>
+                <img src="Jaguar-F-Type-tem-ultima-unidade-fabricada-com-motor-V8-da-marca.png.png" alt="Jaguar F-Type V8 2022">
+                <p>Preço: R$ 600.000</p>
+            </div>
+        </section>
+    </main>
+    <main>
+        <section class="car-logos">
+            <h2>Marcas</h2>
+            <div class="logos-container">
+                <div class="logo">
+                    <img src="logo bmw final.PNG" alt="BMW">
+                </div>
+                <div class="logo">
+                    <img src="logo porsche final.PNG" alt="Porsche">
+                </div>
+                <div class="logo">
+                    <img src="logo jaguar final.PNG" alt="Jaguar">
+                </div>
+                <div class="logo">
+                    <img src="logo lambo final.PNG" alt="Lamborghini">
+                </div>
+                <div class="logo">
+                    <img src="logo mercedes final.PNG" alt="Mercedes">
+                </div>
+            </div>
+        </section>    
+    </main>
+    </div>
+    <!-- DESTAQUE -->
+    <div class="destaque">
+
+    <!-- titulo -->
+    <hr class="l1">
+    <header class="d">DESTAQUES</header>
+    <hr class="l2">
+
+    <!-- imagens carros -->
+        <div class="carros">
+        <img class="carro-1" src="carro 1.png" alt="carro 1">
+        <figcaption class="leg1">| PORCHE TAYCAN TURBO S 2021</figcaption>
+        <img class="carro-2" src="carro 2.png" alt="carro 2">
+        <figcaption class="leg2">| FORD MUSTANG GT500 2023 </figcaption>
+        <img class="carro-3" src="carro 3.png" alt="carro 3">
+        <figcaption class="leg3">| MC LAREN 720S 2019</figcaption>
+        </div>
+    </div>
+
+
+    <!-- LOCALIZAÇÃO -->
+    <div class="LOCALIZAÇÃO">
+
+    <hr class="l3">
+    <header class="tit-local">LOCALIZAÇÃO</header>
+    <hr class="l4">
+    <img class="mapa" src="mapa.final.png" alt="mapa">
+    <img class="carrinho" src="carrinho(mapa).png" alt="carrinho">
+
+    
+
+
+</body>
+
+</html>
